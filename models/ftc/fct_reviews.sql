@@ -31,3 +31,4 @@ WHERE
 {% endif %}
 
 -- When I put in the command next flag "--full-refresh" all data is recreated again
+-- Sample: dbt run --full-refresh
