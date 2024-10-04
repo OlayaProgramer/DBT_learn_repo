@@ -1,5 +1,8 @@
 {{
-    config(materialized="table")
+    config(
+        materialized="table",
+        description="Este es una pruba"
+    )
 }}
 
 WITH l AS (
